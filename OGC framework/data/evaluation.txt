@@ -1,0 +1,42 @@
+
+乐理性评估：
+
+4/4拍
+序列长度4  128 = 8 （bar) *4(beat) * (4 crotchet)
+
+
+# ref    name
+    explaination
+----------------------------------
+
+
+1
+#2   pitch range
+    音调范围。max-min
+
+2
+#4.4  law of recovery
+    跳跃超过五个半音回跳次数/跳跃超过五个半音出现次数
+
+3
+#4.1  confined to small intervals
+    跳跃超过五个半音跳跃次数
+
+4
+#4.6  avoid repeat
+    +0，-0  统计  持久度长度超过n的音符的个数  ， 单位是crotchet
+
+5
+#？   3全音比重  如何命名这一项？
+    +6 -6半音所有音程变换的比重
+
+6
+#？ 有效音符比重
+    非空音符的比重
+
+7
+#？  start with tonic note
+    第一个非空音符是某阶 C
+
+
+#分布模拟评估

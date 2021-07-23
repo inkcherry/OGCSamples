@@ -1,0 +1,54 @@
+{
+     "seed": 233,
+    "lr_dict":{"worker":0.0005,"manager":0.0000005,"discriminator":5e-6,"discriminator_absolute": 5e-6},
+    "rl_lr_dict": {"worker":0.00005,"manager":0.00005,"discriminator":5e-5},
+    "gpu_number":"0,2,1",
+    "decay_step_size":200,
+    "decay_rate":0.99,
+    "total_epoch":800,
+    "generated_batchs":156,
+    "eval_generated_num": 3,
+    "save_num":10,
+    "replace_num":5,
+    "is_load_pre_dis": 1,
+    "is_load_pre_dis2":0,
+    "is_load_pre_gen":0,
+    "is_load_pre_critic": 0,
+
+    "is_load_adv_dis": 0,
+    "is_load_adv_gen":0,
+    "is_load_adv_critic": 0,
+
+
+
+
+    "pre_dis_path": "./pts/pre_dis.pt",
+    "pre_dis2_path": "./pts/pre_dis2.pt",
+    "pre_gen_path": "./pts/pre_gen.pt",
+    "pre_critic_path": "./pts/pre_critic.pt",
+
+    "adv_load_gen_path": "./pts/adv_gen.pt2_161_2",
+    "adv_load_dis_path": "./pts/adv_dis6.pt",
+    "adv_load_critic_path":"./pts/adv_critic6.pt",
+
+
+
+    "pre_critic_epoch_num": 0,
+    "pre_dis_epoch_num":0,
+    "pre_gen_epoch_num":1000,
+    "pre_dis2_epoch_num": 0,
+
+
+    "pos_filepath":"./data/train_corpus.npy",
+    "neg_filepath":"./data/gen_data.npy",
+    "eval_filepath":"./data/evaldir/eval_data.npy",
+    "model_path":"./ckpts/",
+    "checkpoint_path":null,
+
+
+
+    "adv_gen_path": "./pts/adv_gen.pt",
+    "adv_dis_path": "./pts/adv_dis.pt",
+    "adv_dis2_path": "./pts/adv_disa.pt",
+    "adv_critic_path":"./pts/adv_critic.pt"
+}

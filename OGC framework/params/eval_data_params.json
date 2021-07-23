@@ -1,0 +1,7 @@
+{
+    "filepath":"./data/eval_data.npy",
+    "batch_size":3,
+    "shuffle":true,
+    "num_workers":4,
+    "pin_memory":false
+}
